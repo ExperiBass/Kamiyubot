@@ -1,0 +1,34 @@
+{
+  "name": "kamiyubot",
+  "formattedName": "Kamiyu",
+  "version": "7.2.1",
+  "description": "h",
+  "main": "./src/kamiyu.js",
+  "scripts": {
+    "start": "node ./runKami.js",
+    "debug": "node ./src/kamiyu.js"
+  },
+  "keywords": [],
+  "author": "ExperiBass",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "axios": "0.27.2",
+    "bufferutil": "4.0.6",
+    "chalk": "4.1.2",
+    "discord-embedbuilder": "discord-embedbuilder",
+    "discord.js": "13.7.0",
+    "node-wrap": "github:ExperiBass/Node-Wrap",
+    "numeral": "2.0.6",
+    "pokedex-promise-v2": "4.0.0",
+    "utf-8-validate": "5.0.9",
+    "zlib-sync": "0.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/experibass/kamiyubot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/experibass/kamiyubot/issues"
+  },
+  "homepage": "https://github.com/experibass/kamiyubot#readme"
+}

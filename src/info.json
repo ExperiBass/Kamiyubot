@@ -1,0 +1,63 @@
+{
+    "prefix": "S",
+    "token": "",
+    "colors": {
+        "red": "#FF0000",
+        "boston": "#CC0000",
+        "blue": "#3B4CCA",
+        "yellow": "#FFDE00",
+        "gold": "#B3A125"
+    },
+    "repo": "https://github.com/ExperiBass/kamiyu",
+    "channels": {
+        "logChannel": ""
+    },
+    "permInt": 60480,
+    "source": ["sword-shield", "sword", "shield"],
+    "fallbackSources": [
+        {
+            "term": "sword",
+            "precedence": 4
+        },
+        {
+            "term": "shield",
+            "precedence": 4
+        },
+        {
+            "term": "ultra-sun-ultra-moon",
+            "precedence": 3
+        },
+        {
+            "term": "ultra-sun",
+            "precedence": 3
+        },
+        {
+            "term": "ultra-moon",
+            "precedence": 3
+        },
+        {
+            "term": "sun-moon",
+            "precedence": 2
+        },
+        {
+            "term": "sun",
+            "precedence": 2
+        },
+        {
+            "term": "moon",
+            "precedence": 2
+        },
+        {
+            "term": "x-y",
+            "precedence": 1
+        },
+        {
+            "term": "x",
+            "precedence": 1
+        },
+        {
+            "term": "y",
+            "precedence": 1
+        }
+    ]
+}
